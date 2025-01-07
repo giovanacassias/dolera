@@ -2,3 +2,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "outfit-extra-light";
+  src: url("./fonts/Outfit/Outfit-Light.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "outfit-semi-bold";
+  src: url("./fonts/Outfit/Outfit-SemiBold.ttf") format("opentype");
+  font-style: normal;
+  font-display: swap;
+}

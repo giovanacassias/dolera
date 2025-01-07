@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WelcomeDoleraComponent } from './welcome-dolera.component';
+import { FooterComponent } from './footer.component';
 
-describe('WelcomeDoleraComponent', () => {
-  let component: WelcomeDoleraComponent;
-  let fixture: ComponentFixture<WelcomeDoleraComponent>;
+describe('FooterComponent', () => {
+  let component: FooterComponent;
+  let fixture: ComponentFixture<FooterComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [WelcomeDoleraComponent]
+      imports: [FooterComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(WelcomeDoleraComponent);
+    fixture = TestBed.createComponent(FooterComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
